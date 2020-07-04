@@ -22,13 +22,12 @@ function index(props) {
       {/* header */}
       <div className="header">
         <Container fluid>
-          <Navbar className="mt-3">
+          <Navbar className="mt-3" expand="lg">
             <Col lg={2} md={3} sm className="col_logo">
               <Navbar.Brand href="#home" className="logo">
                 <img src="./assets/img/logo/logo.png" className="" alt="" />
               </Navbar.Brand>
             </Col>
-            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Col lg={6} md={0} className="main_menu">
               <Navbar.Collapse id="responsive-navbar-nav" className="menu">
                 <Nav className="">
@@ -78,6 +77,7 @@ function index(props) {
                 </Button>
               </Form>
             </Col>
+            <Navbar.Toggle aria-controls="responsive-navbar-nav" className="toggle"></Navbar.Toggle>
           </Navbar>
         </Container>
       </div>
@@ -141,6 +141,8 @@ function index(props) {
         </Container>
       </div>
       {/* end newsletter area start */}
+      
+
       
     </div>
   )
