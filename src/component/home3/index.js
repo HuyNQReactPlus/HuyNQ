@@ -11,7 +11,7 @@ function index(props) {
       {/* offcanvas_menu */}
       <div className="offcanvas_menu">
         <Container fluid>
-          <Col xs={12}>
+          <Col xs={12} >
             <div className="offcanvas_menu_wrapper">
 
             </div>
