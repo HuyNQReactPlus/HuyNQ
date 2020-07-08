@@ -1,18 +1,21 @@
 import React from 'react'
 // import PropTypes from 'prop-types'
 import './style.css';
-import { Container, Row, Col, Navbar, Nav, NavDropdown, Form, FormControl, Button, Card, Carousel, Image} from 'react-bootstrap'
+import { Container, Row, Col, Navbar, Nav, NavDropdown, Form, FormControl, Button, Card, Carousel, Image, } from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSearch, faUserFriends, faHeart, faShoppingBag, faEnvelope, } from '@fortawesome/fontawesome-free-solid';
 
+import 'react-sticky-header/styles.css';
+import StickyHeader from 'react-sticky-header';
 
 function index(props) {
+
   return (
     <div>
       {/* header */}
-      <div className="header">
+      <StickyHeader>
         <Container fluid>
-          <Navbar className="mt-3" expand="lg" fixed="top">
+          <Navbar className="mt-3" expand="lg" fixed="top" >
             <Col lg={2} md={3} sm className="col_logo">
               <Navbar.Brand href="#home" className="logo">
                 <Image src="./assets/img/logo/logo.png" className="" alt="" />
@@ -71,7 +74,7 @@ function index(props) {
             </Navbar.Toggle>
           </Navbar>
         </Container>
-      </div>
+      </StickyHeader>
       {/* end header */}
 
       {/* slider */}
@@ -150,6 +153,254 @@ function index(props) {
         </Container>
       </div>
       {/* end welcome_lukani_store */}
+
+      {/* product area start */}
+
+      {/* ./assets/img/product/product1.jpg */}
+      <div className="product_area product_style2">
+        <Container>
+          <Row>
+            <Col xs={12}>
+              <div className="section_title">
+                <h2>Featured Products</h2>
+              </div>
+            </Col>
+          </Row>
+        </Container>
+
+        <Container>
+          
+        </Container>
+
+      </div >
+
+      {/* product area end */}
+
+      {/* testimonial area start */}
+      <div className="testimonial_area testimonial_two">
+        <Container>
+          <Row>
+            <Col xs={12}>
+              <div className="section_title">
+                <h2>What Our Customers Says ?</h2>
+              </div>
+            </Col>
+          </Row>
+        </Container>
+
+        <Container>
+          <div className="row">
+            <Carousel>
+              <Carousel.Item>
+                <Col lg={12}>
+                  <div className="single-testimonial">
+                    <div className="testimonial-icon-img">
+                      <Image src="assets/img/about/testimonials-icon.png" alt="" />
+                    </div>
+                    <div className="testimonial_content">
+                      <p>“ When a beautiful design is combined with powerful technology,
+                      it truly is an artwork. I love how my website operates and looks with this theme. Thank you for the
+                    awesome product. ”</p>
+                      <div className="testimonial_text_img">
+                        <a href="abc.com"><Image src="assets/img/about/testimonial1.png" alt="" /></a>
+                      </div>
+                      <div className="testimonial_author">
+                        <p><a href="abc.com">Rebecka Filson</a> / <span>CEO of CSC</span></p>
+                      </div>
+                    </div>
+                  </div>
+                </Col>
+              </Carousel.Item>
+              <Carousel.Item>
+                <Col lg={12}>
+                  <div className="single-testimonial">
+                    <div className="testimonial-icon-img">
+                      <Image src="assets/img/about/testimonials-icon.png" alt="" />
+                    </div>
+                    <div className="testimonial_content">
+                      <p>“ When a beautiful design is combined with powerful technology,
+                      it truly is an artwork. I love how my website operates and looks with this theme. Thank you for the
+                    awesome product. ”</p>
+                      <div className="testimonial_text_img">
+                        <a href="abc.com"><Image src="assets/img/about/testimonial2.png" alt="" /></a>
+                      </div>
+                      <div className="testimonial_author">
+                        <p><a href="abc.com">Rebecka Filson</a> / <span>CEO of CSC</span></p>
+                      </div>
+                    </div>
+                  </div>
+                </Col>
+              </Carousel.Item>
+              <Carousel.Item>
+                <Col lg={12}>
+                  <div className="single-testimonial">
+                    <div className="testimonial-icon-img">
+                      <Image src="assets/img/about/testimonials-icon.png" alt="" />
+                    </div>
+                    <div className="testimonial_content">
+                      <p>“ When a beautiful design is combined with powerful technology,
+                      it truly is an artwork. I love how my website operates and looks with this theme. Thank you for the
+                    awesome product. ”</p>
+                      <div className="testimonial_text_img">
+                        <a href="abc.com"><Image src="assets/img/about/testimonial3.png" alt="" /></a>
+                      </div>
+                      <div className="testimonial_author">
+                        <p><a href="abc.com">Rebecka Filson</a> / <span>CEO of CSC</span></p>
+                      </div>
+                    </div>
+                  </div>
+                </Col>
+              </Carousel.Item>
+            </Carousel>
+          </div>
+        </Container>
+      </div>
+      {/* testimonial area end */}
+
+      {/* blog area start */}
+      <div className="blog_section">
+        <Container>
+          <Col>
+            <div className="section_title">
+              <h2>Our Latest Posts</h2>
+            </div>
+          </Col>
+        </Container>
+
+        <div>
+          <Carousel>
+            <Carousel.Item>
+              <Container>
+                <Row>
+                  <Col lg={4} className="carousel_item">
+                    <Card>
+                      <Card.Img variant="top" src="./assets/img/blog/blog1.jpg" />
+                      <Card.Body>
+                        <Card.Title>Post with Audio</Card.Title>
+                        <Card.Text>
+                          Donec vitae hendrerit arcu, sit amet faucibus nisl. Cras pretium arcu ex. Aenean posuere libero eu augue condimentum rhoncus praesent
+                      </Card.Text>
+                        <a href="google.com">Continue Reading</a>
+                      </Card.Body>
+                    </Card>
+                  </Col>
+                  <Col lg={4} className="carousel_item">
+                    <Card>
+                      <Card.Img variant="top" src="./assets/img/blog/blog2.jpg" />
+                      <Card.Body>
+                        <Card.Title>Post with Audio</Card.Title>
+                        <Card.Text>
+                          Donec vitae hendrerit arcu, sit amet faucibus nisl. Cras pretium arcu ex. Aenean posuere libero eu augue condimentum rhoncus praesent
+                      </Card.Text>
+                        <a href="google.com">Continue Reading</a>
+                      </Card.Body>
+                    </Card>
+                  </Col>
+                  <Col lg={4} className="carousel_item">
+                    <Card>
+                      <Card.Img variant="top" src="./assets/img/blog/blog3.jpg" />
+                      <Card.Body>
+                        <Card.Title>Post with Audio</Card.Title>
+                        <Card.Text>
+                          Donec vitae hendrerit arcu, sit amet faucibus nisl. Cras pretium arcu ex. Aenean posuere libero eu augue condimentum rhoncus praesent
+                      </Card.Text>
+                        <a href="google.com">Continue Reading</a>
+                      </Card.Body>
+                    </Card>
+                  </Col>
+                </Row>
+              </Container>
+            </Carousel.Item>
+            <Carousel.Item>
+              <Container>
+                <Row>
+                  <Col lg={4} className="carousel_item">
+                    <Card>
+                      <Card.Img variant="top" src="./assets/img/blog/blog1.jpg" />
+                      <Card.Body>
+                        <Card.Title>Post with Audio</Card.Title>
+                        <Card.Text>
+                          Donec vitae hendrerit arcu, sit amet faucibus nisl. Cras pretium arcu ex. Aenean posuere libero eu augue condimentum rhoncus praesent
+                      </Card.Text>
+                        <a href="google.com">Continue Reading</a>
+                      </Card.Body>
+                    </Card>
+                  </Col>
+                  <Col lg={4} className="carousel_item">
+                    <Card>
+                      <Card.Img variant="top" src="./assets/img/blog/blog2.jpg" />
+                      <Card.Body>
+                        <Card.Title>Post with Audio</Card.Title>
+                        <Card.Text>
+                          Donec vitae hendrerit arcu, sit amet faucibus nisl. Cras pretium arcu ex. Aenean posuere libero eu augue condimentum rhoncus praesent
+                      </Card.Text>
+                        <a href="google.com">Continue Reading</a>
+                      </Card.Body>
+                    </Card>
+                  </Col>
+                  <Col lg={4} className="carousel_item">
+                    <Card>
+                      <Card.Img variant="top" src="./assets/img/blog/blog3.jpg" />
+                      <Card.Body>
+                        <Card.Title>Post with Audio</Card.Title>
+                        <Card.Text>
+                          Donec vitae hendrerit arcu, sit amet faucibus nisl. Cras pretium arcu ex. Aenean posuere libero eu augue condimentum rhoncus praesent
+                      </Card.Text>
+                        <a href="google.com">Continue Reading</a>
+                      </Card.Body>
+                    </Card>
+                  </Col>
+                </Row>
+              </Container>
+            </Carousel.Item>
+            <Carousel.Item>
+              <Container>
+                <Row>
+                  <Col lg={4} className="carousel_item">
+                    <Card>
+                      <Card.Img variant="top" src="./assets/img/blog/blog1.jpg" />
+                      <Card.Body>
+                        <Card.Title>Post with Audio</Card.Title>
+                        <Card.Text>
+                          Donec vitae hendrerit arcu, sit amet faucibus nisl. Cras pretium arcu ex. Aenean posuere libero eu augue condimentum rhoncus praesent
+                      </Card.Text>
+                        <a href="google.com">Continue Reading</a>
+                      </Card.Body>
+                    </Card>
+                  </Col>
+                  <Col lg={4} className="carousel_item">
+                    <Card>
+                      <Card.Img variant="top" src="./assets/img/blog/blog2.jpg" />
+                      <Card.Body>
+                        <Card.Title>Post with Audio</Card.Title>
+                        <Card.Text>
+                          Donec vitae hendrerit arcu, sit amet faucibus nisl. Cras pretium arcu ex. Aenean posuere libero eu augue condimentum rhoncus praesent
+                      </Card.Text>
+                        <a href="google.com">Continue Reading</a>
+                      </Card.Body>
+                    </Card>
+                  </Col>
+                  <Col lg={4} className="carousel_item">
+                    <Card>
+                      <Card.Img variant="top" src="./assets/img/blog/blog3.jpg" />
+                      <Card.Body>
+                        <Card.Title>Post with Audio</Card.Title>
+                        <Card.Text>
+                          Donec vitae hendrerit arcu, sit amet faucibus nisl. Cras pretium arcu ex. Aenean posuere libero eu augue condimentum rhoncus praesent
+                      </Card.Text>
+                        <a href="google.com">Continue Reading</a>
+                      </Card.Body>
+                    </Card>
+                  </Col>
+                </Row>
+              </Container>
+            </Carousel.Item>
+          </Carousel>
+
+        </div>
+      </div>
+      {/* end blog area start */}
+
       {/* newsletter area start */}
       <div className="newsletter_area_start newsletter_two">
         <Container>
@@ -175,22 +426,6 @@ function index(props) {
         </Container>
       </div>
       {/* end newsletter area start */}
-
-      {/* blog area start */}
-      <div className="blog_section">
-        <Container>
-          <Col xs={12}>
-            <div className="section_title">
-              <h2>Our Latest Posts</h2>
-            </div>
-          </Col>
-        </Container>
-        <div className="slider">
-
-        </div>
-
-      </div>
-      {/* end blog area start */}
 
       {/* footer */}
 
@@ -302,7 +537,7 @@ function index(props) {
       </div>
       {/* end footer */}
 
-    </div>
+    </div >
   )
 }
 
