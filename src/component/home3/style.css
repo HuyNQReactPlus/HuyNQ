@@ -439,10 +439,27 @@ margin-bottom: 0;
 }
 /* end newsletter area start */
 
+/* product area start */
+
+.product_area .card {
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+.product_center {
+    display: flex;
+    justify-content: center;
+}
+.icon-start {
+    color: yellow;
+}
+.product_title {
+    text-align: center;
+}
+/* end product area start */
 
 /* tesimonial area start */
 
-/*testimonial css here*/
+
 .testimonial_area {
     padding: 90px 0 96px;
   }

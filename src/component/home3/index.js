@@ -3,7 +3,7 @@ import React from 'react'
 import './style.css';
 import { Container, Row, Col, Navbar, Nav, NavDropdown, Form, FormControl, Button, Card, Carousel, Image, } from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faSearch, faUserFriends, faHeart, faShoppingBag, faEnvelope, } from '@fortawesome/fontawesome-free-solid';
+import { faSearch, faUserFriends, faHeart, faShoppingBag, faEnvelope, faStar } from '@fortawesome/fontawesome-free-solid';
 
 import 'react-sticky-header/styles.css';
 import StickyHeader from 'react-sticky-header';
@@ -168,10 +168,537 @@ function index(props) {
           </Row>
         </Container>
 
-        <Container>
-          
-        </Container>
+        <Carousel >
+          <Carousel.Item >
+            <Container fluid>
+              <Row className="product_center">
+                <Col lg={2}>
+                  <Card>
+                    <Card.Img variant="top" src="./assets/img/product/product1.jpg" />
+                    <Card.Body >
+                      <div className="product_center">
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                      </div>
+                      <Card.Title className="product_title mb-4">commodo augue nisi</Card.Title>
 
+                      <Card.Text className="product_center">£68.00</Card.Text>
+
+                    </Card.Body>
+                  </Card>
+                  <Card>
+                    <Card.Img variant="top" src="./assets/img/product/product2.jpg" />
+                    <Card.Body >
+                      <div className="product_center">
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                      </div>
+                      <Card.Title className="product_title mb-4">commodo augue nisi</Card.Title>
+
+                      <Card.Text className="product_center">£68.00</Card.Text>
+
+                    </Card.Body>
+                  </Card>
+                </Col>
+                <Col lg={2}>
+                  <Card>
+                    <Card.Img variant="top" src="./assets/img/product/product3.jpg" />
+                    <Card.Body >
+                      <div className="product_center">
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                      </div>
+                      <Card.Title className="product_title mb-4">commodo augue nisi</Card.Title>
+
+                      <Card.Text className="product_center">£68.00</Card.Text>
+
+                    </Card.Body>
+                  </Card>
+                  <Card>
+                    <Card.Img variant="top" src="./assets/img/product/product4.jpg" />
+                    <Card.Body >
+                      <div className="product_center">
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                      </div>
+                      <Card.Title className="product_title mb-4">commodo augue nisi</Card.Title>
+
+                      <Card.Text className="product_center">£68.00</Card.Text>
+
+                    </Card.Body>
+                  </Card>
+                </Col>
+                <Col lg={2}>
+                  <Card>
+                    <Card.Img variant="top" src="./assets/img/product/product5.jpg" />
+                    <Card.Body >
+                      <div className="product_center">
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                      </div>
+                      <Card.Title className="product_title mb-4">commodo augue nisi</Card.Title>
+
+                      <Card.Text className="product_center">£68.00</Card.Text>
+
+                    </Card.Body>
+                  </Card>
+                  <Card>
+                    <Card.Img variant="top" src="./assets/img/product/product6.jpg" />
+                    <Card.Body >
+                      <div className="product_center">
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                      </div>
+                      <Card.Title className="product_title mb-4">commodo augue nisi</Card.Title>
+
+                      <Card.Text className="product_center">£68.00</Card.Text>
+
+                    </Card.Body>
+                  </Card>
+                </Col>
+                <Col lg={2}>
+                  <Card>
+                    <Card.Img variant="top" src="./assets/img/product/product7.jpg" />
+                    <Card.Body >
+                      <div className="product_center">
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                      </div>
+                      <Card.Title className="product_title mb-4">commodo augue nisi</Card.Title>
+
+                      <Card.Text className="product_center">£68.00</Card.Text>
+
+                    </Card.Body>
+                  </Card>
+                  <Card>
+                    <Card.Img variant="top" src="./assets/img/product/product8.jpg" />
+                    <Card.Body >
+                      <div className="product_center">
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                      </div>
+                      <Card.Title className="product_title mb-4">commodo augue nisi</Card.Title>
+
+                      <Card.Text className="product_center">£68.00</Card.Text>
+
+                    </Card.Body>
+                  </Card>
+                </Col>
+                <Col lg={2}>
+                  <Card>
+                    <Card.Img variant="top" src="./assets/img/product/product9.jpg" />
+                    <Card.Body >
+                      <div className="product_center">
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                      </div>
+                      <Card.Title className="product_title mb-4">commodo augue nisi</Card.Title>
+
+                      <Card.Text className="product_center">£68.00</Card.Text>
+
+                    </Card.Body>
+                  </Card>
+                  <Card>
+                    <Card.Img variant="top" src="./assets/img/product/product10.jpg" />
+                    <Card.Body >
+                      <div className="product_center">
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                      </div>
+                      <Card.Title className="product_title mb-4">commodo augue nisi</Card.Title>
+
+                      <Card.Text className="product_center">£68.00</Card.Text>
+
+                    </Card.Body>
+                  </Card>
+                </Col>
+              </Row>
+            </Container>
+          </Carousel.Item>
+          <Carousel.Item >
+            <Container fluid>
+              <Row className="product_center">
+                <Col lg={2}>
+                  <Card>
+                    <Card.Img variant="top" src="./assets/img/product/product1.jpg" />
+                    <Card.Body >
+                      <div className="product_center">
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                      </div>
+                      <Card.Title className="product_title mb-4">commodo augue nisi</Card.Title>
+
+                      <Card.Text className="product_center">£68.00</Card.Text>
+
+                    </Card.Body>
+                  </Card>
+                  <Card>
+                    <Card.Img variant="top" src="./assets/img/product/product2.jpg" />
+                    <Card.Body >
+                      <div className="product_center">
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                      </div>
+                      <Card.Title className="product_title mb-4">commodo augue nisi</Card.Title>
+
+                      <Card.Text className="product_center">£68.00</Card.Text>
+
+                    </Card.Body>
+                  </Card>
+                </Col>
+                <Col lg={2}>
+                  <Card>
+                    <Card.Img variant="top" src="./assets/img/product/product3.jpg" />
+                    <Card.Body >
+                      <div className="product_center">
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                      </div>
+                      <Card.Title className="product_title mb-4">commodo augue nisi</Card.Title>
+
+                      <Card.Text className="product_center">£68.00</Card.Text>
+
+                    </Card.Body>
+                  </Card>
+                  <Card>
+                    <Card.Img variant="top" src="./assets/img/product/product4.jpg" />
+                    <Card.Body >
+                      <div className="product_center">
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                      </div>
+                      <Card.Title className="product_title mb-4">commodo augue nisi</Card.Title>
+
+                      <Card.Text className="product_center">£68.00</Card.Text>
+
+                    </Card.Body>
+                  </Card>
+                </Col>
+                <Col lg={2}>
+                  <Card>
+                    <Card.Img variant="top" src="./assets/img/product/product5.jpg" />
+                    <Card.Body >
+                      <div className="product_center">
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                      </div>
+                      <Card.Title className="product_title mb-4">commodo augue nisi</Card.Title>
+
+                      <Card.Text className="product_center">£68.00</Card.Text>
+
+                    </Card.Body>
+                  </Card>
+                  <Card>
+                    <Card.Img variant="top" src="./assets/img/product/product6.jpg" />
+                    <Card.Body >
+                      <div className="product_center">
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                      </div>
+                      <Card.Title className="product_title mb-4">commodo augue nisi</Card.Title>
+
+                      <Card.Text className="product_center">£68.00</Card.Text>
+
+                    </Card.Body>
+                  </Card>
+                </Col>
+                <Col lg={2}>
+                  <Card>
+                    <Card.Img variant="top" src="./assets/img/product/product7.jpg" />
+                    <Card.Body >
+                      <div className="product_center">
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                      </div>
+                      <Card.Title className="product_title mb-4">commodo augue nisi</Card.Title>
+
+                      <Card.Text className="product_center">£68.00</Card.Text>
+
+                    </Card.Body>
+                  </Card>
+                  <Card>
+                    <Card.Img variant="top" src="./assets/img/product/product8.jpg" />
+                    <Card.Body >
+                      <div className="product_center">
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                      </div>
+                      <Card.Title className="product_title mb-4">commodo augue nisi</Card.Title>
+
+                      <Card.Text className="product_center">£68.00</Card.Text>
+
+                    </Card.Body>
+                  </Card>
+                </Col>
+                <Col lg={2}>
+                  <Card>
+                    <Card.Img variant="top" src="./assets/img/product/product9.jpg" />
+                    <Card.Body >
+                      <div className="product_center">
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                      </div>
+                      <Card.Title className="product_title mb-4">commodo augue nisi</Card.Title>
+
+                      <Card.Text className="product_center">£68.00</Card.Text>
+
+                    </Card.Body>
+                  </Card>
+                  <Card>
+                    <Card.Img variant="top" src="./assets/img/product/product10.jpg" />
+                    <Card.Body >
+                      <div className="product_center">
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                      </div>
+                      <Card.Title className="product_title mb-4">commodo augue nisi</Card.Title>
+
+                      <Card.Text className="product_center">£68.00</Card.Text>
+
+                    </Card.Body>
+                  </Card>
+                </Col>
+              </Row>
+            </Container>
+          </Carousel.Item>
+          <Carousel.Item >
+            <Container fluid>
+              <Row className="product_center">
+                <Col lg={2}>
+                  <Card>
+                    <Card.Img variant="top" src="./assets/img/product/product1.jpg" />
+                    <Card.Body >
+                      <div className="product_center">
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                      </div>
+                      <Card.Title className="product_title mb-4">commodo augue nisi</Card.Title>
+
+                      <Card.Text className="product_center">£68.00</Card.Text>
+
+                    </Card.Body>
+                  </Card>
+                  <Card>
+                    <Card.Img variant="top" src="./assets/img/product/product2.jpg" />
+                    <Card.Body >
+                      <div className="product_center">
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                      </div>
+                      <Card.Title className="product_title mb-4">commodo augue nisi</Card.Title>
+
+                      <Card.Text className="product_center">£68.00</Card.Text>
+
+                    </Card.Body>
+                  </Card>
+                </Col>
+                <Col lg={2}>
+                  <Card>
+                    <Card.Img variant="top" src="./assets/img/product/product3.jpg" />
+                    <Card.Body >
+                      <div className="product_center">
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                      </div>
+                      <Card.Title className="product_title mb-4">commodo augue nisi</Card.Title>
+
+                      <Card.Text className="product_center">£68.00</Card.Text>
+
+                    </Card.Body>
+                  </Card>
+                  <Card>
+                    <Card.Img variant="top" src="./assets/img/product/product4.jpg" />
+                    <Card.Body >
+                      <div className="product_center">
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                      </div>
+                      <Card.Title className="product_title mb-4">commodo augue nisi</Card.Title>
+
+                      <Card.Text className="product_center">£68.00</Card.Text>
+
+                    </Card.Body>
+                  </Card>
+                </Col>
+                <Col lg={2}>
+                  <Card>
+                    <Card.Img variant="top" src="./assets/img/product/product5.jpg" />
+                    <Card.Body >
+                      <div className="product_center">
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                      </div>
+                      <Card.Title className="product_title mb-4">commodo augue nisi</Card.Title>
+
+                      <Card.Text className="product_center">£68.00</Card.Text>
+
+                    </Card.Body>
+                  </Card>
+                  <Card>
+                    <Card.Img variant="top" src="./assets/img/product/product6.jpg" />
+                    <Card.Body >
+                      <div className="product_center">
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                      </div>
+                      <Card.Title className="product_title mb-4">commodo augue nisi</Card.Title>
+
+                      <Card.Text className="product_center">£68.00</Card.Text>
+
+                    </Card.Body>
+                  </Card>
+                </Col>
+                <Col lg={2}>
+                  <Card>
+                    <Card.Img variant="top" src="./assets/img/product/product7.jpg" />
+                    <Card.Body >
+                      <div className="product_center">
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                      </div>
+                      <Card.Title className="product_title mb-4">commodo augue nisi</Card.Title>
+
+                      <Card.Text className="product_center">£68.00</Card.Text>
+
+                    </Card.Body>
+                  </Card>
+                  <Card>
+                    <Card.Img variant="top" src="./assets/img/product/product8.jpg" />
+                    <Card.Body >
+                      <div className="product_center">
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                      </div>
+                      <Card.Title className="product_title mb-4">commodo augue nisi</Card.Title>
+
+                      <Card.Text className="product_center">£68.00</Card.Text>
+
+                    </Card.Body>
+                  </Card>
+                </Col>
+                <Col lg={2}>
+                  <Card>
+                    <Card.Img variant="top" src="./assets/img/product/product9.jpg" />
+                    <Card.Body >
+                      <div className="product_center">
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                      </div>
+                      <Card.Title className="product_title mb-4">commodo augue nisi</Card.Title>
+
+                      <Card.Text className="product_center">£68.00</Card.Text>
+
+                    </Card.Body>
+                  </Card>
+                  <Card>
+                    <Card.Img variant="top" src="./assets/img/product/product10.jpg" />
+                    <Card.Body >
+                      <div className="product_center">
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                        <FontAwesomeIcon icon={faStar} className="icon-start" />
+                      </div>
+                      <Card.Title className="product_title mb-4">commodo augue nisi</Card.Title>
+
+                      <Card.Text className="product_center">£68.00</Card.Text>
+
+                    </Card.Body>
+                  </Card>
+                </Col>
+              </Row>
+            </Container>
+          </Carousel.Item>
+
+        </Carousel>
       </div >
 
       {/* product area end */}
