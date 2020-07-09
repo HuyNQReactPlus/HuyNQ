@@ -440,10 +440,12 @@ margin-bottom: 0;
 /* end newsletter area start */
 
 /* product area start */
-
+.carousel_product {
+    padding: 0px 20px;
+}
 .product_area .card {
     max-width: 100%;
-    margin-bottom: 20px;
+    margin: 0px 10px;
 }
 .product_center {
     display: flex;
@@ -455,6 +457,70 @@ margin-bottom: 0;
 .product_title {
     text-align: center;
 }
+
+.owl-carousel .nav-btn{
+    height: 47px;
+    position: absolute;
+    width: 26px;
+    cursor: pointer;
+    top: 385px !important;
+}
+
+.owl-carousel .owl-prev.disabled,
+.owl-carousel .owl-next.disabled{
+  pointer-events: none;
+  opacity: 0.2;
+}
+
+.owl-carousel .prev-slide{
+    /* background-image: url("../../../public/assets/img/icon/nav-icon.png") no-repeat scroll 0 0; */
+    background-image: url("nav-icon.png");
+    left: 10px;
+    display: none;
+}
+.owl-carousel .next-slide{
+    background-image: url("nav-icon.png");
+    right: 10px;
+    background-position: -24px 0px;
+    /* background-color: #cccccc; */
+    display: none;
+}
+.owl-carousel .prev-slide:hover{
+   background-position: 0px -53px;
+}
+.owl-carousel .next-slide:hover{
+  background-position: -24px -53px;
+}
+
+.product_area :hover .nav-btn.prev-slide {
+    display: block;
+}
+.product_area :hover .nav-btn.next-slide {
+    display: block;
+}
+
+.card_product{
+    position: relative;
+}
+
+.action_links {
+    position: absolute;
+    top: 270px;
+    background-color: white;
+    width: 200px;
+    padding-left: 18px;
+    height: 48px;
+    display: none;
+}
+
+
+.card :hover .action_links {
+    display: block;
+}
+.card_product .link_icon_product :hover path {
+    color: #79a206;
+}
+
 /* end product area start */
 
 /* tesimonial area start */
