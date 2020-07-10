@@ -1,12 +1,17 @@
 import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
-import Home3 from './component/home3/index'
+
+import Header from './component/header/index';
+import Footer from './component/footer/index';
+import Component from './component/index'
 
 function App() {
   return (
     <div>
-      <Home3 />
+      <Header />
+      <Component />
+      <Footer />
     </div>
   );
 }
